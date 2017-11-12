@@ -1,0 +1,64 @@
+[submodule "aic94xx-firmware"]
+	path = aic94xx-firmware
+	url = https://aur.archlinux.org/aic94xx-firmware.git
+	branch = master
+[submodule "based-connect-git"]
+	path = based-connect-git
+	url = https://aur.archlinux.org/based-connect-git.git
+	branch = master
+[submodule "chromium-widevine"]
+	path = chromium-widevine
+	url = https://aur.archlinux.org/chromium-widevine.git
+	branch = master
+[submodule "entr"]
+	path = entr
+	url = https://aur.archlinux.org/entr.git
+	branch = master
+[submodule "fontawesome.sty"]
+	path = fontawesome.sty
+	url = https://aur.archlinux.org/fontawesome.sty.git
+	branch = master
+[submodule "grub-linux-default"]
+	path = grub-linux-default
+	url = https://aur.archlinux.org/grub-linux-default.git
+	branch = master
+[submodule "pamtester"]
+	path = pamtester
+	url = https://aur.archlinux.org/pamtester.git
+	branch = master
+[submodule "powerline-fonts-git"]
+	path = powerline-fonts-git
+	url = https://aur.archlinux.org/powerline-fonts-git.git
+	branch = master
+[submodule "spotify"]
+	path = spotify
+	url = https://aur.archlinux.org/spotify.git
+	branch = master
+[submodule "sshrc"]
+	path = sshrc
+	url = https://aur.archlinux.org/sshrc.git
+	branch = master
+[submodule "texlive-moderncv-git"]
+	path = texlive-moderncv-git
+	url = https://aur.archlinux.org/texlive-moderncv-git.git
+	branch = master
+[submodule "tor-browser-en"]
+	path = tor-browser-en
+	url = https://aur.archlinux.org/tor-browser-en.git
+	branch = master
+[submodule "ttf-ms-fonts"]
+	path = ttf-ms-fonts
+	url = https://aur.archlinux.org/ttf-ms-fonts.git
+	branch = master
+[submodule "wd719x-firmware"]
+	path = wd719x-firmware
+	url = https://aur.archlinux.org/wd719x-firmware.git
+	branch = master
+[submodule "cower"]
+	path = cower
+	url = https://aur.archlinux.org/cower.git
+	branch = master
+[submodule "pacaur"]
+	path = pacaur
+	url = https://aur.archlinux.org/pacaur.git
+	branch = master

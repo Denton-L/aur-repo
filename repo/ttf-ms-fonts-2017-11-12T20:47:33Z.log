@@ -1,0 +1,135 @@
+==> Making package: ttf-ms-fonts 2.0-10 (Sun Nov 12 20:47:33 UTC 2017)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Downloading andale32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   374    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   357    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 65  193k   65  127k    0     0   127k      0  0:00:01 --:--:--  0:00:01  127k100  193k  100  193k    0     0   193k      0  0:00:01 --:--:--  0:00:01 1081k
+  -> Downloading arial32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   372    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   355    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  541k  100  541k    0     0   541k      0  0:00:01 --:--:--  0:00:01  541k
+  -> Downloading arialb32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   374    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   351    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  164k  100  164k    0     0   164k      0  0:00:01 --:--:--  0:00:01  379k
+  -> Downloading comic32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   372    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   343    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  240k  100  240k    0     0   240k      0  0:00:01 --:--:--  0:00:01  240k
+  -> Downloading courie32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   374    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   343    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  631k  100  631k    0     0   631k      0  0:00:01 --:--:--  0:00:01  631k
+  -> Downloading georgi32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   374    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   343    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  8  383k    8 32768    0     0  32768      0  0:00:11 --:--:--  0:00:11 32768100  383k  100  383k    0     0   383k      0  0:00:01 --:--:--  0:00:01 2976k
+  -> Downloading impact32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   374    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   357    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  169k  100  169k    0     0   169k      0  0:00:01 --:--:--  0:00:01  169k
+  -> Downloading times32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   372    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   349    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  646k  100  646k    0     0   646k      0  0:00:01 --:--:--  0:00:01 1934k
+  -> Downloading trebuc32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   374    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   357    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 91  348k   91  319k    0     0   319k      0  0:00:01 --:--:--  0:00:01  319k100  348k  100  348k    0     0   348k      0  0:00:01 --:--:--  0:00:01 28.3M
+  -> Downloading verdan32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   374    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   355    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  343k  100  343k    0     0   343k      0  0:00:01 --:--:--  0:00:01  343k
+  -> Downloading webdin32.exe...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   374    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   355    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  180k  100  180k    0     0   180k      0  0:00:01 --:--:--  0:00:01  180k
+==> Validating source files with md5sums...
+    andale32.exe ... Passed
+    arial32.exe ... Passed
+    arialb32.exe ... Passed
+    comic32.exe ... Passed
+    courie32.exe ... Passed
+    georgi32.exe ... Passed
+    impact32.exe ... Passed
+    times32.exe ... Passed
+    trebuc32.exe ... Passed
+    verdan32.exe ... Passed
+    webdin32.exe ... Passed
+==> Extracting sources...
+  -> Extracting andale32.exe with bsdtar
+  -> Extracting arial32.exe with bsdtar
+  -> Extracting arialb32.exe with bsdtar
+  -> Extracting comic32.exe with bsdtar
+  -> Extracting courie32.exe with bsdtar
+  -> Extracting georgi32.exe with bsdtar
+  -> Extracting impact32.exe with bsdtar
+  -> Extracting times32.exe with bsdtar
+  -> Extracting trebuc32.exe with bsdtar
+  -> Extracting verdan32.exe with bsdtar
+  -> Extracting webdin32.exe with bsdtar
+==> Entering fakeroot environment...
+==> Starting package()...
+==> Tidying install...
+  -> Removing libtool files...
+  -> Purging unwanted files...
+  -> Removing static library files...
+  -> Stripping unneeded symbols from binaries and libraries...
+  -> Compressing man and info pages...
+==> Checking for packaging issue...
+==> Creating package "ttf-ms-fonts"...
+  -> Generating .PKGINFO file...
+  -> Generating .BUILDINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Signing package...
+  -> Created signature file /home/builder/aur-build/repo/ttf-ms-fonts-2.0-10-any.pkg.tar.xz.sig.
+==> Leaving fakeroot environment.
+==> Finished making: ttf-ms-fonts 2.0-10 (Sun Nov 12 20:47:42 UTC 2017)
+==> Installing package ttf-ms-fonts with pacman -U...
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (1) ttf-ms-fonts-2.0-10
+
+Total Installed Size:  5.42 MiB
+
+:: Proceed with installation? [Y/n] warning: no /var/cache/pacman/pkg/ cache exists, creating...
+
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Processing package changes...
+installing ttf-ms-fonts...
+:: Running post-transaction hooks...
+(1/4) Updating fontconfig cache...
+(2/4) Cleaning up package cache...
+(3/4) Arming ConditionNeedsUpdate...
+(4/4) Updating X fontdir indices...

@@ -1,0 +1,290 @@
+==> Making package: pamtester 0.1.2-3 (Sun Nov 12 20:42:56 UTC 2017)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Downloading pamtester-0.1.2.tar.gz...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   178  100   178    0     0    178      0  0:00:01 --:--:--  0:00:01  3358
+  0 15629    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0 15711    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   367    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  276k  100  276k    0     0   276k      0  0:00:01 --:--:--  0:00:01  276k
+==> Validating source files with sha256sums...
+    pamtester-0.1.2.tar.gz ... Passed
+==> Extracting sources...
+  -> Extracting pamtester-0.1.2.tar.gz with bsdtar
+==> Starting build()...
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking whether make sets $(MAKE)... yes
+checking for working aclocal-1.4... missing
+checking for working autoconf... found
+checking for working automake-1.4... missing
+checking for working autoheader... found
+checking for working makeinfo... found
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking whether ln -s works... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /usr/sbin/sed
+checking for egrep... grep -E
+checking for ld used by gcc... /usr/sbin/ld
+checking if the linker (/usr/sbin/ld) is GNU ld... yes
+checking for /usr/sbin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/sbin/nm -B
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for epcf90... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/sbin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if gcc static flag  works... yes
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/sbin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /usr/sbin/ld -m elf_x86_64
+checking if the linker (/usr/sbin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/sbin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/sbin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+appending configuration tag "F77" to libtool
+checking for pam_start in -lpam... yes
+checking pam/pam_misc.h usability... no
+checking pam/pam_misc.h presence... no
+checking for pam/pam_misc.h... no
+checking security/pam_misc.h usability... yes
+checking security/pam_misc.h presence... yes
+checking for security/pam_misc.h... yes
+checking for misc_conv in -lpam_misc... yes
+checking pam_misc.h usability... no
+checking pam_misc.h presence... no
+checking for pam_misc.h... no
+checking pam/pam_appl.h usability... no
+checking pam/pam_appl.h presence... no
+checking for pam/pam_appl.h... no
+checking security/pam_appl.h usability... yes
+checking security/pam_appl.h presence... yes
+checking for security/pam_appl.h... yes
+checking pam_appl.h usability... no
+checking pam_appl.h presence... no
+checking for pam_appl.h... no
+checking if the second argument of pam_conv.conv() takes const pointer... no
+checking for ANSI C header files... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for memory.h... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for memset... yes
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strncasecmp... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for malloc... yes
+checking for realloc... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/pamtester.1
+config.status: creating config.h
+config.status: executing default-1 commands
+make  all-recursive
+make[1]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2'
+Making all in src
+make[2]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/src'
+gcc -DHAVE_CONFIG_H -I. -I. -I..   -D_FORTIFY_SOURCE=2  -Wall -c app.c
+gcc -DHAVE_CONFIG_H -I. -I. -I..   -D_FORTIFY_SOURCE=2  -Wall -c expr_parser.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from app.c:41:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from expr_parser.c:41:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -DHAVE_CONFIG_H -I. -I. -I..   -D_FORTIFY_SOURCE=2  -Wall -c parse_opts.c
+gcc -DHAVE_CONFIG_H -I. -I. -I..   -D_FORTIFY_SOURCE=2  -Wall -c pamtester.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from pamtester.c:41:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from parse_opts.c:41:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -DHAVE_CONFIG_H -I. -I. -I..   -D_FORTIFY_SOURCE=2  -Wall -c util.c
+gcc -DHAVE_CONFIG_H -I. -I. -I..   -D_FORTIFY_SOURCE=2  -Wall -c compat.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from util.c:41:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from compat.c:41:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+/bin/sh ../libtool --mode=link gcc  -Wall -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -o pamtester  app.o expr_parser.o parse_opts.o pamtester.o util.o compat.o  -lpam -lpam_misc
+mkdir .libs
+gcc -Wall -Wl,-O1 -Wl,--sort-common -Wl,--as-needed -Wl,-z -Wl,relro -Wl,-z -Wl,now -o pamtester app.o expr_parser.o parse_opts.o pamtester.o util.o compat.o  -lpam -lpam_misc
+make[2]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/src'
+Making all in doc
+make[2]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/doc'
+make[2]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2'
+make[2]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2'
+make[1]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2'
+==> Entering fakeroot environment...
+==> Starting package()...
+Making install in src
+make[1]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/src'
+make[2]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/src'
+/bin/sh ../mkinstalldirs /home/builder/aur-build/pamtester/pkg/pamtester/usr/bin
+make[2]: Nothing to be done for 'install-data-am'.
+mkdir /home/builder/aur-build/pamtester/pkg/pamtester/usr
+mkdir /home/builder/aur-build/pamtester/pkg/pamtester/usr/bin
+ /bin/sh ../libtool  --mode=install /usr/bin/install -c  pamtester /home/builder/aur-build/pamtester/pkg/pamtester/usr/bin/pamtester
+/usr/bin/install -c pamtester /home/builder/aur-build/pamtester/pkg/pamtester/usr/bin/pamtester
+make[2]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/src'
+make[1]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/src'
+Making install in doc
+make[1]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/doc'
+make[2]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+make  install-man1
+make[3]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/doc'
+/bin/sh ../mkinstalldirs /home/builder/aur-build/pamtester/pkg/pamtester/usr/share/man/man1
+mkdir /home/builder/aur-build/pamtester/pkg/pamtester/usr/share
+mkdir /home/builder/aur-build/pamtester/pkg/pamtester/usr/share/man
+mkdir /home/builder/aur-build/pamtester/pkg/pamtester/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./pamtester.1 /home/builder/aur-build/pamtester/pkg/pamtester/usr/share/man/man1/pamtester.1
+make[3]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/doc'
+make[2]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/doc'
+make[1]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2/doc'
+make[1]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2'
+make[2]: Entering directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2'
+make[1]: Leaving directory '/home/builder/aur-build/pamtester/src/pamtester-0.1.2'
+==> Tidying install...
+  -> Removing libtool files...
+  -> Purging unwanted files...
+  -> Removing static library files...
+  -> Stripping unneeded symbols from binaries and libraries...
+  -> Compressing man and info pages...
+==> Checking for packaging issue...
+==> Creating package "pamtester"...
+  -> Generating .PKGINFO file...
+  -> Generating .BUILDINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Signing package...
+  -> Created signature file /home/builder/aur-build/repo/pamtester-0.1.2-3-x86_64.pkg.tar.xz.sig.
+==> Leaving fakeroot environment.
+==> Finished making: pamtester 0.1.2-3 (Sun Nov 12 20:43:03 UTC 2017)
+==> Installing package pamtester with pacman -U...
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (1) pamtester-0.1.2-3
+
+Total Installed Size:  0.05 MiB
+
+:: Proceed with installation? [Y/n] warning: no /var/cache/pacman/pkg/ cache exists, creating...
+
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Processing package changes...
+installing pamtester...
+:: Running post-transaction hooks...
+(1/2) Cleaning up package cache...
+(2/2) Arming ConditionNeedsUpdate...
